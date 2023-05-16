@@ -1,0 +1,21 @@
+{
+  "name": "SoftServe_PSTL_SSallDetails",
+  "label": "SSall Details",
+  "description": "SSall Details",
+  "organization": "SoftServe",
+  "version": "0.0.1",
+  "library": "PSTL",
+  "allowedApplications": [],
+  "componentKey": "SoftServe_PSTL_SSallDetails",
+  "type": "Template",
+  "subtype": "DETAILS",
+  "icon": "DefaultForm.svg",
+  "properties": [
+    {
+      "name": "A",
+      "label": "Region A",
+      "format": "CONTENTPICKER",
+      "addTypeList": ["Fields", "Views", "UIComponents"]
+    }
+  ]
+}

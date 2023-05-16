@@ -1,0 +1,32 @@
+{
+  "name": "SoftServe_PSTL_SSallPage",
+  "label": "SSall Page",
+  "description": "SSall Page",
+  "organization": "SoftServe",
+  "version": "0.0.1",
+  "library": "PSTL",
+  "allowedApplications": [],
+  "componentKey": "SoftServe_PSTL_SSallPage",
+  "type": "Template",
+  "subtype": "PAGE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "useConfigurableLayout",
+      "label": "Use inline layout for insights",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "enableGetNextWork",
+      "label": "Enable Get next work",
+      "format": "BOOLEAN"
+    },
+    {
+      "name": "A",
+      "label": "Region A",
+      "format": "CONTENTPICKER",
+      "addTypeList": ["Widgets", "Views", "Insights"]
+    }
+  ],
+  "defaultConfig": {}
+}

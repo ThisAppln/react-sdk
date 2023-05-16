@@ -1,0 +1,49 @@
+{
+  "name": "SoftServe_PSTL_SSallTwoColumnForm",
+  "label": "SSall Two Column Form",
+  "description": "SSall Two Column Form",
+  "organization": "SoftServe",
+  "version": "0.0.1",
+  "library": "PSTL",
+  "allowedApplications": [],
+  "componentKey": "SoftServe_PSTL_SSallTwoColumnForm",
+  "type": "Template",
+  "subtype": "FORM",
+  "icon": "TwoColumn.svg",
+  "properties": [
+    {
+      "name": "A",
+      "label": "Region A",
+      "format": "CONTENTPICKER"
+    },
+    {
+      "name": "B",
+      "label": "Region B",
+      "format": "CONTENTPICKER"
+    },
+    {
+      "label": "Conditions",
+      "format": "GROUP",
+      "properties": [
+        {
+          "name": "required",
+          "label": "Required",
+          "format": "REQUIRED",
+          "saveToReference": true
+        },
+        {
+          "name": "disabled",
+          "label": "Disabled",
+          "format": "DISABLED",
+          "saveToReference": true
+        },
+        {
+          "name": "visibility",
+          "label": "Visibility",
+          "format": "VISIBILITY",
+          "saveToReference": true
+        }
+      ]
+    }
+  ]
+}

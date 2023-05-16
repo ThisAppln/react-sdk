@@ -1,0 +1,23 @@
+{
+  "name": "SoftServe_PSTL_SSallCaseWidget",
+  "label": "SSall Case Widget",
+  "description": "SSall Case Widget",
+  "organization": "SoftServe",
+  "version": "0.0.1",
+  "library": "PSTL",
+  "allowedApplications": [],
+  "componentKey": "SoftServe_PSTL_SSallCaseWidget",
+  "type": "Widget",
+  "subtype": "CASE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+   {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    }
+  ],
+  "defaultConfig": {
+     "label": "Case Widget"
+  }
+}

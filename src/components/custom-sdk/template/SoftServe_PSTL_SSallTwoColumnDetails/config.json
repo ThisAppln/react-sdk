@@ -1,0 +1,27 @@
+{
+  "name": "SoftServe_PSTL_SSallTwoColumnDetails",
+  "label": "SSall Two Column Details",
+  "description": "SSall Two Column Details",
+  "organization": "SoftServe",
+  "version": "0.0.1",
+  "library": "PSTL",
+  "allowedApplications": [],
+  "componentKey": "SoftServe_PSTL_SSallTwoColumnDetails",
+  "type": "Template",
+  "subtype": "DETAILS",
+  "icon": "TwoColumnDetails.svg",
+  "properties": [
+    {
+      "name": "A",
+      "label": "Region A",
+      "format": "CONTENTPICKER",
+      "addTypeList": ["Fields", "Views", "UIComponents"]
+    },
+    {
+      "name": "B",
+      "label": "Region B",
+      "format": "CONTENTPICKER",
+      "addTypeList": ["Fields", "Views", "UIComponents"]
+    }
+  ]
+}
