@@ -13,17 +13,7 @@ export const BaseSoftServePstlRiskDisplay = () => {
   const [value, setValue] = useState(configProps.value);
 
   const props = {
-    value,
-    placeholder: configProps.placeholder,
-    label: configProps.label,
-    testId: configProps.testId,
-    hasSuggestions: configProps.hasSuggestions,
-    helperText: configProps.helperText,
-    disabled: configProps.disabled,
-    required: configProps.required,
-    readOnly: configProps.readOnly,
-    displayMode: configProps.displayMode,
-    getPConnect: () => {
+      getPConnect: () => {
       return {
         getActionsApi: () => {
           return {
@@ -37,8 +27,18 @@ export const BaseSoftServePstlRiskDisplay = () => {
         }
       };
     },
-    onChange: (event) => { setValue(event.target.value); },
-    onBlur: () => { return configProps.value; }
+    value: text ('Risk','Very High'),
+    placeholder: configProps.placeholder,
+    label: configProps.label,
+    testId: configProps.testId,
+    hasSuggestions: configProps.hasSuggestions,
+    helperText: configProps.helperText,
+    disabled: configProps.disabled,
+    required: configProps.required,
+    readOnly: configProps.readOnly,
+    displayMode: configProps.displayMode,
+   // onChange: (event) => { setValue(event.target.value); },
+   // onBlur: () => { return configProps.value; }
   };
 
   return (
